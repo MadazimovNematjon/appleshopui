@@ -121,11 +121,25 @@ class _HomePageState extends State<HomePage> {
       color: Colors.transparent,
       elevation: 0,
       child: Container(
+<<<<<<< HEAD
+=======
+        padding: EdgeInsets.all(16),
+>>>>>>> ca44a65 (Initial commit)
         height: 100,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(25),
           image: DecorationImage(image: AssetImage(item),fit: BoxFit.cover)
         ),
+<<<<<<< HEAD
+=======
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            Image(height: 35,width: 35, image: AssetImage('assets/images/heart.png',)),
+          ],
+        ),
+>>>>>>> ca44a65 (Initial commit)
       ),
     );
   }
